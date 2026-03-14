@@ -14,6 +14,8 @@ body {
     font-weight: 400;
 }
 
+
+
 .fixed-width {
     width: 600px;
     margin: 0 auto; /* centers content on the screen */
@@ -45,7 +47,30 @@ h1, h2 {
 */
 
 /*** INSERT YOUR WORK BELOW: ***/
-
+h1{
+    font-size: 32px;
+}
+h2{
+    font-size: 24px;
+    padding-bottom: 15px;
+}
+p{
+    padding-bottom: 15px;
+}
+h3{
+    font-size: 18px;
+    font-weight: bold;
+}
+footer{
+    font-size:12px;
+}
+a{
+    color:black;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
 
 
 
@@ -70,10 +95,45 @@ h1, h2 {
 */
 
 /*** INSERT YOUR WORK BELOW: ***/
+header,
+footer{
+    background-color: #c74365;
+}
+header{
+    margin-bottom: 30px;
+}
+main{
+    margin-bottom: 30px;
+}
+header a{
+    font-size: 18px;
+    color: black
+}
+header nav li{
+    margin-left: 15px;
+}
 
+header img{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
 
+header h1, header a{
+    line-height: 50px;
+}
 
+header nav{
+    margin-left: auto;
+}
+header nav a{
+    margin-left: auto;
+}
 
+footer{
+    text-align: center;
+    padding: 15px;
+}
 
 
 
@@ -88,6 +148,15 @@ h1, h2 {
 
 /*** INSERT YOUR WORK BELOW: ***/
 
+.italics{
+    font-style:italic;
+}
+
+article{
+    background-color: lightgray;
+    padding: 15px;
+    margin: 15px;
+}
 
 
 
@@ -108,7 +177,34 @@ h1, h2 {
 */
 
 /*** INSERT YOUR WORK BELOW: ***/
+.wide-column{
+    width: 420px;
+}
+.narrow-column{
+    width: 180px;
+}
+.wide-column img{
+    width: 120px;
+}
 
+.labels{
+    font-weight: bold;
+    width: 70px;
+    text-align: right;
+    margin-right: 15px;
+}
+
+.light-background{
+    background-color: lightgray;
+    height: 140px;
+    margin-top: 30px;
+    padding-top:10px;
+}
+
+.light-background h2{
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
 
 
 
@@ -130,6 +226,34 @@ h1, h2 {
 
 /*** INSERT YOUR WORK BELOW: ***/
 
+form{
+    margin-top: 45px;
+}
+form .flex > div{
+    margin-right: 15px;
+}
 
-
+label{
+    display:block;
+    font-weight:bold;
+    text-align:center;
+    
+}
+input{
+    width: 100px;
+    
+}
+button{
+    width: 100px;
+    height: 21px;
+    margin-top: 30px;
+    margin-left: 500px;
+    border:1px solid grey;
+    background-color: white;
+    border-radius: 4px;
+    font-family:inherit
+}
+buttom:hover{
+    background-color: grey;
+}
 
